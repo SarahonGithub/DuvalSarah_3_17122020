@@ -61,7 +61,7 @@ body {
 .button_rechercher {
     background-image: linear-gradient(#FF79DA, #9356DC);
     height: 3.5rem;
-    width: 16rem;
+    width: 15.4rem;
     border-radius: 11rem;
     font-size: 1.1rem;
     color: white;
@@ -72,6 +72,7 @@ body {
 
 .Fonctionnement {
     font-size: 1.7rem;
+    margin: 3.2rem 1.3rem 0;
 }
 
 .step {
@@ -117,16 +118,32 @@ body {
     object-fit: cover;
     width: 100%;
     height: 12rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .restaurant_card {
     margin: 1.3rem;
     background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0 5px 15px #DBDBDB;
+}
+
+.Nouveau {
+    position: absolute;
+    background-color: #99E2D0;
+    top: 1rem;
+    right: 0.9rem;
+    color: #009300;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
 }
 
 .restaurants {
     background-color: #F2F2F2;
     margin-top: 4.5rem;
+    padding-bottom: 3rem;
 }
 
 .restaurant_desc {
@@ -149,7 +166,43 @@ body {
 
 .location {
     font-size: 1.1rem;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1rem;
     margin-top: 0.2rem;
     margin-left: 0.8rem;
+}
+
+footer {
+    background-color: #3B3B3B;
+    padding: 1.8rem;
+}
+
+.footer_title {
+    width: 6.9rem;
+    margin-bottom: 1.2rem;
+}
+
+.footer_icon {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer_icon2 {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.paragraph_flex {
+    color: white;
+    margin-left: 0.7rem;
+}
+
+.footer_flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer_paragraph {
+    color: white;
+    margin-bottom: 0.5rem;
 }
