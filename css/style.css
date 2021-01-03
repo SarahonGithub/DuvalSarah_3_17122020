@@ -86,10 +86,18 @@ body {
     box-shadow: 0px 5px 15px #D2D2D2;
 }
 
+.purple_step {
+    background-color: #f9ecff;
+}
+
 .step_icon {
     font-size: 1.2rem;
     margin: 1.8rem;
     color: grey;
+}
+
+#purple_icon {
+    color: #9356DC;
 }
 
 .numérotation {
