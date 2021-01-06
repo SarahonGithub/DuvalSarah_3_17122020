@@ -200,10 +200,6 @@ a {
     transition: color 500ms ease;
 }
 
-.heart2:visited {
-    color: #9356DC;
-    opacity: 1;
-}
 
 .location {
     font-size: 1.1rem;

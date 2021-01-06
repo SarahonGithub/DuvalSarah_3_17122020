@@ -78,10 +78,24 @@ hr {
 .plat {
     background-color: white;
     margin: 1.3rem;
-    padding: 1rem;
     border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+}
 
-    
+.card_content {
+    padding: 1rem;
+    width: 100rem;
+}
+
+.card_content:hover {
+    width: 100%;
+    transition: width 2s;
+}
+
+.card_content:active {
+    width: 100%;
+    transition: width 2s;
 }
 
 @keyframes fadein {
@@ -126,8 +140,22 @@ h3 {
 
 .hidden {
     position: absolute;
-  }
+}
 
+.animation_menu {
+    background-color: #99E2D0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 0rem 1rem 1rem 0rem;
+    width: 5.5rem;
+}
+
+.check {
+    color: white;
+    font-size: 1.3rem;
+    margin: auto;
+}
 
 .button_commander {
     background-image: linear-gradient(#FF79DA, #9356DC);
