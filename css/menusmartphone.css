@@ -88,10 +88,6 @@ hr {
     width: 100rem;
 }
 
-.card_content:hover {
-    width: 100%;
-    transition: width 2s;
-}
 
 .card_content:active {
     width: 100%;
