@@ -19,7 +19,7 @@ body {
 
 .logo {
     width: 11rem;
-    margin-left: 4.9rem;
+    margin-left: 4.5rem;
 }
 
 .arrow {
@@ -48,6 +48,28 @@ h1 {
     font-size: 1.5rem;
     color: #565656;
 }
+
+.heart2 {
+    opacity: 0;
+    position: absolute;
+    color: #FF79DA;
+    right: 2.6rem;
+    font-size: 1.5rem;
+}
+
+.heart2:hover {
+    color: #9356DC;
+    opacity: 1;
+    transition: color 1500ms ease-in-out;
+}
+
+.heart2:active {
+    color: #9356DC;
+    opacity: 1;
+    transition: color 1500ms ease-in-out forwards;
+}
+
+
 
 .menu {
     background-color: #F2F2F2;
@@ -83,16 +105,29 @@ hr {
     overflow: hidden;
 }
 
-.card_content {
-    padding: 1rem;
-    width: 100rem;
+.animation_menu {
+    background-color: #99E2D0;
+    border-radius: 0rem 1rem 1rem 0rem;
+    width: 0;
 }
 
-
-.card_content:active {
-    width: 100%;
+.plat:hover .animation_menu {
+    width: 6.2rem;
+    display: flex;
     transition: width 2s;
 }
+
+.plat:active .animation_menu {
+    width: 6.2rem;
+    display: flex;
+    transition: width 2s;
+}
+
+.card_content {
+    padding: 1rem;
+    width: 100%;
+}
+
 
 @keyframes fadein {
     from {
@@ -127,25 +162,21 @@ h3 {
 
 .entree_descr {
     color: #565656;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .price {
-    margin-right: 0.5rem;
     font-weight: bold;
+    width: 10%;
 }
 
 .hidden {
     position: absolute;
 }
 
-.animation_menu {
-    background-color: #99E2D0;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    border-radius: 0rem 1rem 1rem 0rem;
-    width: 5.5rem;
-}
+
 
 .check {
     color: white;
@@ -179,9 +210,10 @@ footer {
     padding: 1.8rem;
 }
 
-.footer_title {
-    width: 6.9rem;
+.logo_title {
     margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    color:white;
 }
 
 .footer_icon {
