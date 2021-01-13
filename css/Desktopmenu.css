@@ -1,0 +1,76 @@
+.heart2 {
+    left: 27.55rem;
+    right: auto;
+}
+
+.menu_img {
+    height: 25rem;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h2 {
+    padding-left: 2rem;
+}
+
+.entrees_title{
+    grid-column: 1;
+}
+
+.plats_title {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.desserts_title {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.plat {
+    margin: 1.3rem 2rem;
+}
+
+#plat1 {
+    grid-row: 3;
+}
+
+#plat2 {
+    grid-row: 4;
+}
+
+#plat3 {
+    grid-row: 5;
+}
+
+.flex_h1 {
+    width: auto;
+}
+
+.button {
+    width: 100%;
+    text-align: start;
+    margin: 1.9rem 1.3rem 0;
+    grid-column: 1/ span 3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.logo_title {
+    margin: 0;
+}
+
+.footer_flex {
+    margin: 0;
+}
+
+.footer_paragraph {
+    margin: 0;
+}
