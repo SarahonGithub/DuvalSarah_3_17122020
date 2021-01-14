@@ -18,6 +18,7 @@
     animation: spin 3s linear, opacity 3.0s;
     top: 18%;
     right: 31%;
+    z-index: 999;
   }
   
   @keyframes spin {
