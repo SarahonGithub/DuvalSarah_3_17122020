@@ -34,15 +34,15 @@ h2 {
     margin: 1.3rem 2rem;
 }
 
-#plat1 {
+.plat1 {
     grid-row: 3;
 }
 
-#plat2 {
+.plat2 {
     grid-row: 4;
 }
 
-#plat3 {
+.plat3 {
     grid-row: 5;
 }
 

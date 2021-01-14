@@ -66,7 +66,7 @@ h1 {
 .heart2:active {
     color: #9356DC;
     opacity: 1;
-    transition: color 1500ms ease-in-out forwards;
+    transition: color 1500ms ease-in-out;
 }
 
 
@@ -137,15 +137,15 @@ hr {
     }
 }
 
-#plat1 {
+.plat1 {
     animation: fadein 2s;
 }
 
-#plat2 {
+.plat2 {
     animation: fadein 4s;
 }
 
-#plat3 {
+.plat3 {
     animation: fadein 6s;
 }
 
