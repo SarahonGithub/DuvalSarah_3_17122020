@@ -1,0 +1,29 @@
+.plat4 {
+    grid-column: 1;
+}
+
+.menu_img {
+    height: 18rem;
+}
+
+@media screen and (max-width: 1250px){
+    .plat4 {
+        grid-row: 6;
+    }
+    .Dessertplat1 {
+        grid-row: 8;
+    }
+    .Dessertplat2 {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .Dessertplat3 {
+        grid-column: 1;
+        grid-row: 10;
+    }
+    .desserts_title {
+    grid-row: 7;
+    }
+    .hr3 {
+    grid-row: 7;
+    }}

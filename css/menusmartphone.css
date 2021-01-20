@@ -33,6 +33,7 @@ body {
 
 h1 {
     font-family: Shrikhand;
+    font-size: 1.85rem;
 }
 
 .flex_h1 {
@@ -109,6 +110,7 @@ hr {
     background-color: #99E2D0;
     border-radius: 0rem 1rem 1rem 0rem;
     width: 0;
+    cursor: pointer;
 }
 
 .plat:hover .animation_menu {
@@ -169,6 +171,7 @@ h3 {
 
 .price {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hidden {
@@ -185,17 +188,19 @@ h3 {
     background-image: linear-gradient(#FF79DA, #9356DC);
     height: 3.5rem;
     width: 13rem;
+    opacity: 1;
     border-radius: 11rem;
     font-size: 1.1rem;
     color: white;
     margin-bottom: 4rem;
     box-shadow: 0 5px 13px #B9B9B9;
     border: none;
-    opacity: 1;
+    cursor: pointer;
 }
 
 .button_commander:hover {
     opacity: 0.5;
+    box-shadow: 0 5px 13px black;
 }
 
 .button {

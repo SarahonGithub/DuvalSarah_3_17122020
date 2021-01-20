@@ -109,7 +109,13 @@ a {
     margin-bottom: 4rem;
     box-shadow: 0 5px 13px #B9B9B9;
     border: none;
+    cursor: pointer;
 }
+
+.button_rechercher:hover {
+    opacity: 0.5;
+    box-shadow: 0 5px 13px black;
+  }
 
 .Fonctionnement {
     font-size: 1.7rem;
