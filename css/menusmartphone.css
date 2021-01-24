@@ -86,7 +86,7 @@ h2 {
     font-weight: normal;
     color:#565656;
     font-size: 1.2rem;
-    padding: 1.9rem 1.3rem 0.5rem;
+    padding: 1.9rem 1.3rem 0.1rem;
 }
 
 hr {
@@ -98,39 +98,77 @@ hr {
     margin-left: 1.4rem;
 }
 
-.plat {
-    background-color: white;
-    margin: 1.3rem;
-    border-radius: 1rem;
-    display: flex;
-    overflow: hidden;
+.card {
+    width: 80%;
+  flex: 1;
+  padding: 20px;
 }
 
 .animation_menu {
-    background-color: #99E2D0;
-    border-radius: 0rem 1rem 1rem 0rem;
-    width: 0;
-    cursor: pointer;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #99E2D0;
+    border-radius: 0 20px 20px 0;
+    display: none;
+    transition-duration: 0.5s;
+    animation: slideLeft 0.5s;
+}
+
+.plat {
+    width: 92%;
+    background: #FFF;
+    box-shadow: 2px 2px 10px #dbd9d9;
+    border-radius: 20px;
+    margin: 1rem auto;
+    display: flex;
 }
 
 .plat:hover .animation_menu {
-    width: 20%;
-    transition: all 500ms;
+    display: flex;
 }
 
-.plat:hover .card_content {
+.plat:hover .flex {
     width: 80%;
-    transition: all 500ms;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-duration: 0.5s;
 }
 
-.entree_descr {
-    width: 100%;
+.plat:hover .card {
+    margin: 0 -18% 0 0;
+    transition-duration: 0.5s;
 }
 
-.card_content {
-    padding: 1rem;
-    width: 100%;
+.card:hover h3 {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-duration: 0.5s;
 }
+
+@keyframes slideLeft {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 20%;
+    }
+  }
+  @keyframes spinner-rotate {
+    0% {
+      transform: scale(1) rotate(0deg);
+      animation-delay: 1s;
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+      animation-duration: 1s;
+    }
+  }
+
 
 @keyframes fadein {
     from {
@@ -154,24 +192,39 @@ hr {
 }
 
 .flex {
+    width: 100%;
     display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    margin: 0;
 }
 
 h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.2rem;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .entree_descr {
-    color: #565656;
+    width: 90%;
+    margin: 0 5px 0 0;
+    color: grey;
+    font-family: "Roboto", sans-serif;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .price {
-    font-weight: bold;
-    cursor: pointer;
+    width: 15%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-weight: 800;
 }
 
 .hidden {
@@ -179,9 +232,9 @@ h3 {
 }
 
 .check {
-    color: white;
-    font-size: 1.3rem;
-    margin: auto;
+    font-size: 1.5em;
+    color: #FFF;
+    animation: spinner-rotate 0.5s;
 }
 
 .button_commander {
@@ -192,7 +245,7 @@ h3 {
     border-radius: 11rem;
     font-size: 1.1rem;
     color: white;
-    margin-bottom: 4rem;
+    margin: 2.5rem 0 5.5rem;
     box-shadow: 0 5px 13px #B9B9B9;
     border: none;
     cursor: pointer;
