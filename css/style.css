@@ -43,7 +43,7 @@ main {
 }
 
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     
 }
 
@@ -226,21 +226,12 @@ a {
     color: #FF79DA;
     right: 1.5rem;
     font-size: 1.5rem;
-    
 }
 
 .heart2:hover {
     color: #9356DC;
     opacity: 1;
-    transition: color 1500ms ease-in-out;
-}
-
-
-
-.heart2:active {
-    color: #9356DC;
-    opacity: 1;
-    transition: color 1500ms ease-in-out;
+    transition: color 1500ms;
 }
 
 .location {
