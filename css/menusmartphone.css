@@ -64,13 +64,6 @@ h1 {
     transition: color 1500ms ease-in-out;
 }
 
-.heart2:active {
-    color: #9356DC;
-    opacity: 1;
-    transition: color 1500ms ease-in-out forwards;
-}
-
-
 
 .menu {
     background-color: #F2F2F2;
